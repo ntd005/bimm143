@@ -38,8 +38,30 @@ round(sum(stats$Proteins)/sum(stats$Total) *100 ,2)
 
 >Q3  Type HIV in the PDB website search box on the home page and determine how many HIV-1 protease structures are in the current PDB?
 
+#Part 2
 
+```{r}
+library(bio3d)
 
+pdb <- read.pdb("1hsg")
+pdb
+```
+
+##Select protein only atoms
+
+Here I will use the `atom.select` function...
+
+```{r}
+prot <- atom.select(pdb, "protein", value = TRUE)
+lig <- atom.select(pdb, "ligand", value = TRUE)
+```
+
+And write out these new PDB obijects with the `write.pdb()` function.
+
+```{r}
+write.pdb(lig, file = "1hsg_ligand.pdb")
+write.pdb(prot, file = "1hsg_protein.pdb")
+```
 
 
 
