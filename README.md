@@ -2,8 +2,6 @@
 
 This is my classwork from [BIMM-143](https://bioboot.github.io/bimm143_W2) winter 2020 at UC San Diego.
 
-![Image](BIMM 143/Screen Shot 2020-03-10 at 12.01.05 PM.jpg?raw=true "Title")
-
 Index of Material
 
 Class 05: [class 05 link](https://github.com/ntd005/bimm143/tree/master/class05)
