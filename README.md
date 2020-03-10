@@ -2,7 +2,7 @@
 
 This is my classwork from [BIMM-143](https://bioboot.github.io/bimm143_W2) winter 2020 at UC San Diego.
 
-#Index of Material
+Index of Material
 
 Class 05: [class 05 link](https://github.com/ntd005/bimm143/tree/master/class05)
  
